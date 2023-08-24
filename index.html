@@ -8,10 +8,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-
+    <h1>Tic-Tac-Toe</h1>
+    <br>
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
     </div>
+    <br>
 
+    <div class="winning-message" id="winningMessage">
+        <div id="winningMessageText"></div>
+    </div>
+    <br>
+    <button id="restartButton">Restart</button>
+    <br>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="index.js"></script>
