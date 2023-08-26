@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="htmlBody">
     <div id="gameContainer">
-        <h1 id="headingOne">Tic Tac Toe</h1>
+        <br>
+        <h1 class="container" id="headingOne">Tic Tac Toe</h1>
         <br>
         <br>
-        <div id="cellContainer">
+        <div id="cellContainer"><!--this is the 9 empty boxes-->
             <div cellIndex="0" class="cell"></div>
             <div cellIndex="1" class="cell"></div>
             <div cellIndex="2" class="cell"></div>
@@ -25,10 +26,10 @@
         </div>
         <br>
         <br>
-        <h2 id="statusText"></h2>
+        <h2 id="statusMessage"></h2> <!--this will prompt who's turn it is and the winner of the game-->
         <br>
         <br>
-        <button id="restartBtn">Restart</button>
+        <button id="restartBtn">Restart Game</button> <!--this will restart the game once clicked-->
 
     
     
