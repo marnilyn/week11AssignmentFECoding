@@ -1,3 +1,6 @@
+// //this declares the winner of the game
+
+
 const cells = document.querySelectorAll(".cell");
 const statusMessage = document.querySelector("#statusMessage");
 const restartBtn = document.querySelector("#restartBtn");
